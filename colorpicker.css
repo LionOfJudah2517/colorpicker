@@ -1,0 +1,39 @@
+*{
+  color: orange;
+}
+
+h1{
+  background-color: steelblue;
+  color:white;
+  margin: auto;
+  height:auto;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+.game-toggle{
+  background-color: white;
+  text-align: center;
+}
+
+button{
+  color: steelblue;
+  text-transform: uppercase;
+  border: 0;  
+}
+
+.squares{
+  float: left;
+  width:30%;
+  padding-bottom: 30%;
+  background-color: black;
+  margin: 1.66%;
+}
+
+#container{
+  max-width: 600px;
+  margin: auto;
+}
