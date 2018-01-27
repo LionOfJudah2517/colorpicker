@@ -8,6 +8,7 @@ h1{
   margin: auto;
   height:auto;
   text-align: center;
+  text-transform: uppercase;
 }
 
 body{
@@ -22,15 +23,19 @@ body{
 button{
   color: steelblue;
   text-transform: uppercase;
-  border: 0;  
+  border: 0;
+  font-size: inherit;
 }
-
+#RGBCO{
+  text-transform: uppercase;
+}
 .squares{
   float: left;
   width:30%;
   padding-bottom: 30%;
   background-color: black;
   margin: 1.66%;
+  border-radius:20%;
 }
 
 #container{
